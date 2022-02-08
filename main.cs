@@ -9,12 +9,12 @@ class Program {
 
   if (myNumber % 2 == 0) 
   {
-    Console.ForeGroundColor = ConsoleColor.Green;
+    Console.ForegroundColor = ConsoleColor.Green;
     Console.WriteLine("Number is even.");
   }
   else 
   {
-    Console.ForeGroundColor - ConsoleColor.Red;
+    Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine("Number is odd.");
   }
   }
