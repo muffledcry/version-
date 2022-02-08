@@ -9,5 +9,6 @@ class Program {
 
   if (myNumber % 2 == 0) Console.WriteLine("Number is even.");
   else Console.WriteLine("Number is odd.");
+    
   }
 }
