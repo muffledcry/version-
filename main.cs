@@ -7,9 +7,15 @@ class Program {
   Console.WriteLine("Enter a number: ");
   Int32 myNumber = Convert.ToInt32(Console.ReadLine());
 
-  if (myNumber % 2 == 0) Console.WriteLine("Number is even.");
-  else Console.WriteLine("Number is odd.");
-
-    
+  if (myNumber % 2 == 0) 
+  {
+    Console.ForeGroundColor = ConsoleColor.Green;
+    Console.WriteLine("Number is even.");
+  }
+  else 
+  {
+    Console.ForeGroundColor - ConsoleColor.Red;
+    Console.WriteLine("Number is odd.");
+  }
   }
 }
